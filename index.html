@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102843">
+  <meta name="description" content="Dashboard interaktif metodologi penelitian S2 TI: peta 32 judul skripsi, perbedaan S1–S3, research gap, dan novelty. Tanpa login dan tanpa database.">
+  <title>Ruang Riset S2 — Dari Skripsi ke Kontribusi Ilmiah</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#utama">Lewati navigasi</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#beranda" aria-label="Ruang Riset S2, kembali ke beranda">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span><strong>RUANG RISET <b>S2</b></strong><small>Metodologi Penelitian Teknologi Informasi</small></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks">☰ <span>Menu</span></button>
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#ringkasan">Insight</a>
+        <a href="#jenjang">S1–S3</a>
+        <a href="#peta-judul">32 Judul</a>
+        <a href="#transformasi">Transformasi Riset</a>
+        <a href="#laboratorium">Research Gap & Novelty</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="utama">
+    <section id="beranda" class="hero">
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="dot"></span> PERKULIAHAN PERTAMA · MAGISTER TEKNOLOGI INFORMASI</div>
+          <h1>Dari <em>skripsi</em> menuju<br><span>kontribusi ilmiah.</span></h1>
+          <p>Eksplorasi 32 judul skripsi nyata untuk memahami perbedaan penelitian S1, S2, dan S3 — lalu pelajari cara membangun <i>research gap</i> dan <i>novelty</i> yang dapat dipertanggungjawabkan.</p>
+          <div class="hero-actions"><a class="button button-light" href="#peta-judul">Jelajahi 32 judul <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#jenjang">Memahami jenjang riset ↓</a></div>
+          <div class="hero-micro"><span class="status-light"></span> Website statis · Tanpa login · Tanpa database</div>
+        </div>
+        <div class="hero-path" aria-label="Ilustrasi jenjang penelitian S1, S2, dan S3">
+          <div class="path-connector" aria-hidden="true"></div>
+          <div class="path-node path-1"><span class="path-year">TAHAP 01 / SARJANA</span><strong>S1 · Menerapkan</strong><small>Penguasaan metode dan solusi terapan</small></div>
+          <div class="path-node path-2"><span class="path-year">TAHAP 02 / MAGISTER</span><strong>S2 · Memperdalam</strong><small>Kritik, evaluasi, dan kontribusi ilmiah</small></div>
+          <div class="path-node path-3"><span class="path-year">TAHAP 03 / DOKTOR</span><strong>S3 · Menghasilkan</strong><small>Pengetahuan orisinal yang signifikan</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ringkasan" class="container lift-section" aria-labelledby="ringkasan-title">
+      <div class="metric-grid">
+        <article class="metric"><span class="metric-icon">▤</span><span class="metric-number">32</span><span class="metric-caption">Judul skripsi yang dikaji</span></article>
+        <article class="metric"><span class="metric-icon">◫</span><span class="metric-number">7</span><span class="metric-caption">Kelompok tema awal</span></article>
+        <article class="metric"><span class="metric-icon">↗</span><span class="metric-number">8</span><span class="metric-caption">Contoh jalur pengembangan</span></article>
+        <article class="metric"><span class="metric-icon">◇</span><span class="metric-number">3</span><span class="metric-caption">Jenjang dan fokus kontribusi</span></article>
+      </div>
+      <div class="section-heading first-heading"><div><div class="kicker">01 / INSIGHT UTAMA</div><h2 id="ringkasan-title">Apa yang dapat kita pelajari dari judul S1?</h2></div><p>Judul adalah petunjuk tentang domain dan pendekatan, <strong>bukan bukti</strong> bahwa suatu penelitian sudah memiliki kontribusi ilmiah tertentu.</p></div>
+      <div class="insight-cards">
+        <article class="insight-note"><span class="insight-count">01</span><h3>Topik ≠ jenjang</h3><p>Blockchain, AI, dan LLM tidak otomatis berarti S2 atau S3. Periksa terlebih dahulu pertanyaan, desain, dan bukti penelitiannya.</p></article>
+        <article class="insight-note"><span class="insight-count">02</span><h3>Sistem jadi ≠ ilmu bertambah</h3><p>Aplikasi yang bekerja merupakan luaran artefak. Kontribusi pengetahuan muncul melalui pertanyaan dan evaluasi yang menjelaskan sesuatu.</p></article>
+        <article class="insight-note"><span class="insight-count">03</span><h3>Gap harus dibuktikan</h3><p>“Belum ada di kota X” bukan otomatis kesenjangan ilmiah. Gap harus diturunkan dari telaah literatur yang dapat ditelusuri.</p></article>
+      </div>
+      <p class="source-note">Sumber data: 32 judul yang diberikan pengampu. Pengelompokan berbasis kata kunci judul untuk pembelajaran, bukan audit kualitas karya atau klasifikasi disiplin yang telah divalidasi.</p>
+    </section>
+
+    <section id="jenjang" class="section-muted section-space" aria-labelledby="jenjang-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="kicker">02 / FUNDAMENTAL PENELITIAN</div><h2 id="jenjang-title">Masalah yang sama, kedalaman yang berbeda.</h2></div><p>Peningkatan jenjang bukan berarti wajib memperbanyak algoritma. Yang meningkat adalah kedalaman argumentasi, orisinalitas kontribusi, dan kekuatan pembuktiannya.</p></div>
+        <div class="level-grid">
+          <article class="level-card"><span class="level-index">01 <span>SARJANA</span></span><div class="level-symbol">S1</div><h3>Menerapkan ilmu</h3><p>Menguji kemampuan merancang dan menjalankan penyelidikan secara sistematis, termasuk penerapan solusi serta evaluasinya.</p><div class="level-bottom"><b>Pertanyaan utama</b><span>Apakah solusi bekerja dan sesuai kebutuhan?</span></div></article>
+          <article class="level-card featured"><div class="featured-ribbon">FOKUS PERKULIAHAN</div><span class="level-index">02 <span>MAGISTER</span></span><div class="level-symbol">S2</div><h3>Memperdalam pengetahuan</h3><p>Menjawab gap yang jelas melalui sintesis literatur, evaluasi kritis, pengembangan pendekatan, atau bukti empiris baru.</p><div class="level-bottom"><b>Pertanyaan utama</b><span>Mengapa, kapan, dan sejauh mana pendekatan ini berhasil?</span></div></article>
+          <article class="level-card"><span class="level-index">03 <span>DOKTOR</span></span><div class="level-symbol">S3</div><h3>Kontribusi orisinal</h3><p>Menghasilkan dan mempertahankan pengetahuan orisinal yang signifikan beserta batas keberlakuan dan generalisasinya.</p><div class="level-bottom"><b>Pertanyaan utama</b><span>Pengetahuan baru apa yang dihasilkan dan kapan berlaku?</span></div></article>
+        </div>
+        <div class="comparison"><div class="comparison-head"><h3>Perbandingan akademik</h3><span>Geser tabel secara horizontal pada layar kecil →</span></div>
+          <div class="table-scroll"><table><thead><tr><th>Aspek</th><th>Skripsi S1</th><th>Tesis S2</th><th>Disertasi S3</th></tr></thead><tbody>
+            <tr><th>Orientasi</th><td>Penerapan dan penguasaan metode</td><td>Pendalaman dan kontribusi yang dapat diuji</td><td>Pengetahuan orisinal yang signifikan</td></tr>
+            <tr><th>Literatur</th><td>Dasar konsep dan studi relevan</td><td>Sintesis kritis untuk membuktikan gap</td><td>Pemosisian kontribusi pada state of the art</td></tr>
+            <tr><th>Metode</th><td>Implementasi atau pengujian yang tepat</td><td>Evaluasi komparatif, pengembangan, atau penjelasan</td><td>Perumusan dan pengujian kontribusi orisinal</td></tr>
+            <tr><th>Bukti</th><td>Validasi fungsi, mutu, atau temuan</td><td>Baseline, metrik, bias, dan ketidakpastian sesuai klaim</td><td>Validasi mekanisme, ketahanan, dan generalisasi sesuai klaim</td></tr>
+            <tr><th>Kontribusi</th><td>Solusi dan/atau temuan empiris terapan</td><td>Kontribusi empiris, metodologis, evaluatif, atau desain</td><td>Kerangka, prinsip, metode, atau penjelasan orisinal</td></tr>
+          </tbody></table></div>
+          <p class="table-caption">Kerangka pedagogis; syarat formal tiap jenjang tetap mengikuti peraturan institusi. S1 dapat memiliki kebaruan, dan tesis tidak harus menciptakan algoritma baru.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="peta-judul" class="container section-space" aria-labelledby="peta-title">
+      <div class="section-heading"><div><div class="kicker">03 / PETA PENELITIAN S1</div><h2 id="peta-title">32 judul, beragam jalur menuju riset.</h2></div><p>Filter tema atau cari kata dalam judul untuk menemukan titik awal diskusi riset. Kategori dapat ditinjau ulang oleh dosen.</p></div>
+      <div class="data-layout"><div class="panel chart-panel"><div class="panel-heading"><h3>Distribusi bidang dari judul</h3><span class="tiny-badge">32 JUDUL</span></div><div id="themeChart" class="chart-rows" aria-label="Grafik jumlah judul berdasarkan tema"></div><div class="legend-note">Klik salah satu batang untuk memfilter daftar judul.</div></div><div class="panel insight-panel"><div class="insight-visual"><span>12<span class="insight-denom">/32</span></span><small>judul SI & aplikasi</small></div><h3>Dominasi penelitian terapan</h3><p>Kelompok sistem informasi dan aplikasi merupakan kelompok terbesar berdasarkan label awal: 12 dari 32 judul (37,5%). Ini bisa menjadi titik diskusi tentang bagaimana pengembangan aplikasi ditingkatkan menjadi pertanyaan ilmiah.</p><div class="callout-strip">Catatan: distribusi tema tidak menunjukkan kualitas atau jenjang suatu karya.</div></div></div>
+      <div class="catalog panel"><div class="catalog-top"><div><h3>Katalog judul skripsi</h3><p id="catalogCount" class="small-muted" aria-live="polite">Memuat daftar...</p></div><button id="resetFilter" class="text-button" type="button">Reset filter ↺</button></div><div class="catalog-tools"><label class="search-wrap"><span class="sr-only">Cari judul skripsi</span><span aria-hidden="true">⌕</span><input type="search" id="titleSearch" placeholder="Cari kata kunci, metode, atau bidang..." autocomplete="off"></label><label class="select-wrap"><span class="sr-only">Filter kategori</span><select id="categorySelect"><option value="all">Semua bidang</option></select></label></div><div id="titleList" class="title-list" aria-live="polite"></div><div class="catalog-bottom"><span id="catalogPageInfo" class="small-muted"></span><button id="loadMore" class="button button-dark" type="button">Lihat lebih banyak ↓</button></div></div>
+    </section>
+
+    <section id="transformasi" class="section-muted section-space" aria-labelledby="transformasi-title"><div class="container">
+      <div class="section-heading"><div><div class="kicker">04 / TRANSFORMASI PENELITIAN</div><h2 id="transformasi-title">Satu tema, tiga pertanyaan berbeda.</h2></div><p>Pilih studi kasus untuk melihat perubahan fokus riset dari implementasi, kontribusi berbasis bukti, hingga pengetahuan orisinal.</p></div>
+      <div class="case-tabs" id="caseTabs" role="tablist" aria-label="Pilih contoh topik"></div>
+      <article class="case-feature" id="caseFeature" aria-live="polite"></article>
+      <div class="science-rule"><span class="science-rule-mark">!</span><p><strong>Jangan salah mengartikan contoh.</strong> Judul S2 dan S3 di sini adalah skenario pembelajaran, bukan klaim bahwa pendekatan tersebut benar-benar baru di literatur. Kebaruan harus diperiksa melalui artikel primer.</p></div>
+    </div></section>
+
+    <section id="laboratorium" class="container section-space" aria-labelledby="lab-title">
+      <div class="section-heading"><div><div class="kicker">05 / RESEARCH GAP & NOVELTY</div><h2 id="lab-title">Dari masalah praktis menuju kontribusi ilmiah.</h2></div><p>Bangun argumentasi dengan pola: <i>apa yang diketahui → apa yang terbatas → pertanyaan → kontribusi → pembuktian</i>.</p></div>
+      <div class="concept-pair"><article class="concept-card gap-card"><div class="concept-heading"><span class="concept-icon">G</span><div><small>RESEARCH GAP</small><h3>Ketidakcukupan pengetahuan</h3></div></div><p>Bukan sekadar “belum pernah diterapkan di lokasi X”, tetapi keterbatasan yang dapat ditunjukkan melalui pemetaan literatur.</p><div class="concept-example"><b>Contoh lemah</b><p>“Belum ada penelitian KNN genteng di Kabupaten X.”</p></div><div class="concept-example strong"><b>Contoh hipotesis gap yang lebih baik</b><p>“Belum jelas kapan perubahan komposisi bahan baku menyebabkan penurunan generalisasi model; perlu diuji setelah telaah literatur.”</p></div></article>
+        <article class="concept-card novelty-card"><div class="concept-heading"><span class="concept-icon">N</span><div><small>NOVELTY</small><h3>Aspek orisinal kontribusi</h3></div></div><p>Bukan hanya mengganti algoritma. Kebaruan harus berhubungan dengan pengetahuan yang dihasilkan dan apa yang dapat diverifikasi.</p><div class="concept-example"><b>Contoh lemah</b><p>“Menggunakan Transformer karena algoritmanya lebih baru.”</p></div><div class="concept-example strong"><b>Contoh yang dapat diuji</b><p>“Mengusulkan mekanisme adaptasi dan menguji alasan peningkatannya melalui baseline, ablation, dan kondisi domain.”</p></div></article></div>
+      <div class="process-panel"><div class="panel-heading"><h3>Alur membangun argumentasi penelitian</h3><span class="tiny-badge">5 LANGKAH</span></div><ol class="process-steps"><li><b>01</b><strong>Petakan literatur</strong><span>Apa temuan dan metode yang sudah terbukti?</span></li><li><b>02</b><strong>Temukan keterbatasan</strong><span>Kondisi, asumsi, populasi, atau validasi apa yang lemah?</span></li><li><b>03</b><strong>Rumuskan gap & RQ</strong><span>Apa pertanyaan yang belum cukup terjawab?</span></li><li><b>04</b><strong>Nyatakan kontribusi</strong><span>Apa pengetahuan atau desain yang akan dihasilkan?</span></li><li><b>05</b><strong>Rancang pembuktian</strong><span>Baseline, data, metrik, bias, dan keterbatasan apa yang diuji?</span></li></ol></div>
+      <div class="lab-panel panel"><div class="lab-panel-title"><div><div class="kicker">LATIHAN INTERAKTIF · TANPA PENYIMPANAN</div><h3>Bangun kerangka gap dari contoh</h3><p>Ganti studi kasus dan fokus evaluasi untuk memperoleh kerangka diskusi awal. Teks ini bukan hasil penelusuran jurnal maupun penilaian otomatis kebaruan.</p></div><span class="privacy-pill">◈ Tidak merekam data</span></div><div class="lab-controls"><label>Pilih contoh studi kasus<select id="labCase"></select></label><label>Pilih sudut pandang evaluasi<select id="labAngle"><option value="generalisasi">Generalisasi lintas konteks</option><option value="robustness">Ketahanan pada kondisi gangguan</option><option value="validitas">Kekuatan validasi dan pembanding</option><option value="pengguna">Dampak pada pengguna/proses</option><option value="efisiensi">Trade-off efisiensi dan ketepatan</option></select></label></div><div id="labResult" class="lab-result" aria-live="polite"></div><div class="lab-actions"><button id="copyOutline" type="button" class="button button-dark">Salin kerangka diskusi ↗</button><span id="copyNotice" role="status" class="small-muted"></span></div></div>
+      <div class="checklist"><div><span class="kicker">PERTANYAAN REFLEKSI</span><h3>Apakah calon topik tesis Anda sudah layak diteliti?</h3></div><ul><li>Masalahnya spesifik, penting, dan dapat dibuktikan?</li><li>Gap diturunkan dari artikel relevan, bukan dugaan?</li><li>Kontribusi dapat dinyatakan dalam satu atau dua kalimat?</li><li>Metode dan bukti cukup untuk menjawab pertanyaan?</li><li>Kontribusi berbeda dari sekadar membuat aplikasi?</li></ul></div>
+    </section>
+
+    <section id="referensi" class="section-muted section-space compact"><div class="container"><div class="section-heading"><div><div class="kicker">06 / LANDASAN ILMIAH</div><h2>Referensi untuk memperdalam metodologi</h2></div><p>Artikel jurnal tentang sintesis literatur, validitas, dan reproduktibilitas. Bukan ketentuan resmi jenjang S1/S2/S3.</p></div><div class="reference-grid" id="referenceList"></div><p class="source-note">Tautan DOI mengarah ke penerbit jurnal. Status cakupan indeks Scopus suatu dokumen perlu dikonfirmasi pada database Scopus institusi apabila diperlukan untuk administrasi akademik.</p></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><strong>RUANG RISET S2</strong><p>Media diskusi metodologi penelitian TI berbasis 32 judul skripsi yang disediakan pengampu.</p></div><div class="footer-right"><span>Tanpa pretest · Tanpa posttest · Tanpa database</span><span>GitHub + Vercel · Website statis</span><a href="#beranda">Kembali ke atas ↑</a></div></div></footer>
+</body>
+</html>
